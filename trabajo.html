@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Style</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#fff5fa;color:#333}
+header{background:linear-gradient(135deg,#ff5fa2,#ffc1dd);color:#fff;padding:40px 20px;text-align:center}
+header h1{font-size:2.5rem}
+header p{margin-top:10px}
+nav{display:flex;justify-content:center;gap:20px;background:#fff;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+nav a{text-decoration:none;color:#ff4f97;font-weight:bold}
+section{padding:50px 20px;max-width:1100px;margin:auto}
+.catalogo{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:18px;padding:20px;box-shadow:0 6px 18px rgba(0,0,0,.08);text-align:center}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:14px}
+.card h3{margin:12px 0}
+.btn{display:inline-block;margin-top:10px;background:#ff4f97;color:#fff;padding:10px 18px;border-radius:30px;text-decoration:none}
+.contacto{background:#ffe3ef;border-radius:20px;padding:30px}
+.info{background:#fff;border-radius:20px;padding:30px;box-shadow:0 6px 18px rgba(0,0,0,.08);margin-bottom:40px}
+footer{text-align:center;padding:25px;background:#ff5fa2;color:#fff;margin-top:40px}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 6px 15px rgba(0,0,0,.2)}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Sweet Style</h1>
+<p>Ropa con estilo para dama, joven y niña en Colombia</p>
+</header>
+
+<nav>
+<a href="#catalogo">Catálogo</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section>
+
+<div class="info">
+<h2 style="color:#ff4f97;margin-bottom:15px;">Sobre Sweet Style</h2>
+<p>
+Sweet Style es una tienda online dedicada a ofrecer ropa moderna, cómoda y elegante
+para dama, jóvenes y niñas. Nuestra página está creada para brindar variedad de estilos,
+excelente calidad y precios accesibles para todas las edades. Aquí encontrarás prendas
+casuales, elegantes y juveniles para cualquier ocasión.
+</p>
+</div>
+
+<section id="catalogo">
+<h2 style="text-align:center;margin-bottom:25px;color:#ff4f97">Nuestro Catálogo</h2>
+
+<div class="catalogo">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1772615071603-ad5de36e425d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHZlc3RpZG8lMjBlbGVnYW50ZXxlbnwwfHwwfHx8MA%3D%3D">
+<h3>Vestidos Elegantes</h3>
+<p>$65.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600">
+<h3>Moda Juvenil</h3>
+<p>$55.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600">
+<h3>Ropa para Niña</h3>
+<p>$40.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1533399710066-c33de66fe6bb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdXNhc3xlbnwwfHwwfHx8MA%3D%3D">
+<h3>Blusas Modernas</h3>
+<p>$38.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1475178626620-a4d074967452?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGplYW5zfGVufDB8fDB8fHww">
+<h3>Jeans Skinny</h3>
+<p>$60.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://plus.unsplash.com/premium_photo-1693242804269-90f818c6001f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FtaXNldGFzJTIwY2FzdWFsZXMlMjBtdWplcnxlbnwwfHwwfHx8MA%3D%3D">
+<h3>Camisetas Casuales</h3>
+<p>$32.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604400389379-bd02bdc0f022?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8emFwYXRpbGxhcyUyMG11amVyfGVufDB8fDB8fHww">
+<h3>Zapatillas Juveniles</h3>
+<p>$95.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://plus.unsplash.com/premium_photo-1673757121315-e7f427f1d378?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hhcXVldGFzJTIwbXVqZXJ8ZW58MHx8MHx8fDA%3D">
+<h3>Chaquetas Fashion</h3>
+<p>$88.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://media.istockphoto.com/id/2208099974/es/foto/mujer-joven-con-gafas-con-crop-top-negro-de-manga-larga-y-minifalda-blanca-con-estampado.webp?a=1&b=1&s=612x612&w=0&k=20&c=DfS6uWBv7eUUeIlXZbqw3S_IRXHLdHBZU1VVi2pkOH8=">
+<h3>Faldas Cortas</h3>
+<p>$42.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1654512462970-8191bc8742bd?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGlqYW1hc3xlbnwwfHwwfHx8MA%3D%3D">
+<h3>Pijamas Dama</h3>
+<p>$48.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1691315909393-c5c91e22760f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNob3J0c3xlbnwwfHwwfHx8MA%3D%3D">
+<h3>Shorts Verano</h3>
+<p>$35.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1746186237160-671e8d6d2a3e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHJvcGElMjBkZXBvcnRpdmElMjBkZSUyMG11amVyfGVufDB8fDB8fHww">
+<h3>Conjuntos Deportivos</h3>
+<p>$78.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1677922336239-d6978d0d2af2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNhbmRhbGlhc3xlbnwwfHwwfHx8MA%3D%3D">
+<h3>Sandalias Dama</h3>
+<p>$52.000 COP</p>
+<a href="#" class="btn">Comprar</a>
+</div>
+
+</div>
+</section>
+
+<section id="contacto">
+<div class="contacto">
+<h2 style="color:#ff4f97">Contáctanos</h2>
+<p>📍 Cali, Colombia</p>
+<p>📞 +57 312 709 4974</p>
+<p>📧 sweetstyle@gmail.com</p>
+</div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/573127094974" target="_blank">WhatsApp</a>
+
+<footer>
+<p>© 2026 Sweet Style - Colombia</p>
+</footer>
+
+</body>
+</html>
